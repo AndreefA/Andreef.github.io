@@ -1,0 +1,468 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 1920px;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 1920px;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/ auto 85% no-repeat, url(../img/bg.jpg) ; 
+}
+
+.titl_container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.titl_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.titl_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+.titl_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+    font-weight: bold;
+}
+
+.second_page{
+    width: 1920px;
+    height: 720px;
+    background: url(../img/logo.png) 50% 41%/ auto 33% no-repeat, url(../img/cherta.png) 50% 21%/ auto 0.45% no-repeat , url(../img/ikonka.png) 46.5% 85.55%/ auto 2.3% no-repeat, url(../img/fon1.jpg) ;
+}
+
+.second_page_container{
+    width: 1920px;
+    color: #263244;
+    float: left;
+    text-align: center;
+}
+.second_page_container h2{
+    text-align: center;
+    padding-top: 107px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.second_page_container h5{
+    text-align: justify;
+    font-size: 16px;
+    padding:  320px 595px 0px 595px;
+    
+}
+.second_page_container h4{
+    text-align: justify;
+    font-size: 16px;
+    padding: 43px 595px 0px 595px;
+}
+.second_page_container input{
+    height: 40px;
+    border: 2px solid #6f707e;
+    background: none;
+    border-radius: 5px;   
+    font-size: 15px;
+    color: #6f707e;
+    padding: 0px 16px 0px 36px;
+    margin: 37px 0px 0px 0px;
+    font-weight: bold;   
+}
+.third_page{
+    width: 1920px;
+    height: 526px;
+    background: url(../img/cherta.png) 50% 28%/ auto 0.65% no-repeat , url(../img/nout.png) 26% 56%/ auto 10% no-repeat , url(../img/znak.png) 42.3% 56%/ auto 10% no-repeat , url(../img/raketa.png) 60.5% 56%/ auto 10% no-repeat, url(../img/rupor.png) 77.5% 56%/ auto 10% no-repeat , url(../img/fon2.jpg) ;
+}
+.third_page_container{
+    width: 1920px;
+    color: #263244;
+    float: left;
+    text-align: center;  
+}
+.third_page_container h1{
+    text-align: center;
+    padding-top: 107px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.veb{
+    margin-left: 475px;
+}
+.third_page_container h4{
+    color: #cf7600;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 209px;
+    margin-top: 219px;
+    float: left;
+}
+.third_page_container h5{
+    color: #3f495a;
+}
+.diz{
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 412px;
+    width: 210px; 
+    padding-top: 10px;
+}
+.razr{
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 90px;
+    width: 210px;
+    padding-top: 10px;
+}
+.ceo{
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 120px;
+    width: 210px;
+    padding-top: 10px;
+}
+.mark{
+        font-size: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 110px;
+    width: 210px;
+    padding-top: 10px;
+}
+.fourth_page{
+    width: 1920px;
+    height: 1215px;
+    background:  url(../img/cherta.png) 50% 14%/ auto 0.27% no-repeat , url(../img/keys.jpg) 0% 68.5%/ auto 72% no-repeat ;
+}
+.fourth_page_container{
+    width: 1920px;
+    color: #263244;
+    float: left;
+}
+.fourth_page_container h1{
+    text-align: center;
+    padding-top: 107px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.fourth_page_container h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 71px;
+}
+.leftside{
+    float: left;
+    padding-left: 407px;
+    padding-top: 672px;
+    max-width: 700px;
+
+}
+.client{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.company{
+    font-size: 15px;
+    padding-top: 17px;
+}
+.webs{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 17px;
+}
+.webstxt{
+    font-size: 15px;
+    padding-top: 17px;
+    margin-right: 150px;
+}
+.namePJ{
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 657px;
+    text-align: left;
+    padding-left: 30px;
+}
+.namePJtxt{
+    font-size: 16px;
+    max-width: 1640px;
+    margin-top: 5px;
+    line-height: 35px;
+}
+.leftside input{
+    margin-top: 20px;
+    color: #fff;
+    border: 3px solid #63b5ae;
+    border-radius: 3px;
+    padding: 16px 23px;
+    background: #63b5ae;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fifth_page{
+    width: 1920px;
+    height: 810px;
+    background: url(../img/liniya.png)  47.35% 71%/ auto 0.249% no-repeat , url(../img/pole1.png) 47.5% 29.2%/ auto 7.1% no-repeat, url(../img/pole1.png) 47.5% 47.6%/ auto 7.1% no-repeat, url(../img/pole1.png) 47.5% 66.2%/ auto 7.1% no-repeat;
+}
+.fifth_page_container{
+    width: 1920px;
+    color: #1c2534;
+    float: left;
+}
+.fifth_page_container h2{
+    padding-top: 107px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center
+}
+.fifth_page_container h3{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 496px;
+}
+.tip{
+    padding-top: 57px;
+}
+.fifth_page_container select{
+    font-size: 21px;
+    margin-left: 506px;
+    color: #737373;
+    margin-top: 27px;
+    margin-bottom: 67px;
+    background: none;
+    width: 850px;    
+}
+.type{
+}
+.fifth_page_container p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.srok{
+    padding-bottom: 17px;
+    padding-left: 496px;
+}
+.srok1{
+    float: right;
+    padding-right: 537px;
+
+}
+.price{
+    padding-left: 496px;
+
+}
+.price1{
+    float: right;
+    padding-top: 17px;
+    padding-right: 537px;
+}
+.stat_page{
+    width: 1920px;
+    height: 500px;
+    background: url(../img/cherta.png) 50% 32%/ auto 0.8% no-repeat , url(../img/smile.png) 26.75% 55%/ auto 10% no-repeat ,url(../img/skobka.png) 42.55% 55%/ auto 10% no-repeat ,url(../img/galka.png) 59% 55%/ auto 10% no-repeat ,url(../img/kubok.png) 74.75% 55%/ auto 10% no-repeat , url(../img/fon3.jpg) ; 
+}
+.stat{
+    width: 1920px;
+    color: #323e4f;
+    float: left;
+}
+.stat h1{
+    padding-top: 107px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.numbers{
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 205px;
+}
+.num1{
+    display: inline;
+    padding-left: 495px;
+}
+.num2{
+    display: inline;
+    padding-left: 223px;
+}
+.num3{
+    display: inline;
+padding-left: 217px;
+}
+.num4{
+    display: inline;
+    padding-left: 245px;
+}
+.let{
+    padding-top: 33px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.let1{
+    display: inline;
+    padding-left: 425px;
+}
+.let2{
+    display: inline;
+    padding-left: 152px;
+}
+.let3{
+    display: inline;
+    padding-left: 154px;
+}
+.let4{
+    display: inline;
+    padding-left: 141px;
+}
+.rewiews_page{
+    width: 1920px;
+    height: 595px;
+    background: url(../img/cherta.png) 50% 25%/ auto 0.6% no-repeat , url(../img/men.png) 50% 45%/ auto 17% no-repeat;
+}
+.rewiews{
+    width: 1920px;
+    color: #243042;
+    float: left;
+    text-align: center;
+}
+.rewiews h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 107px;
+    padding-bottom: 233px;
+}
+.rewiews p{
+    margin-left: 616px;
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.evg{
+    padding-top: 25px;
+}
+.contacts{
+    width: 1920px;
+    height: 808px;
+    color: #fff;
+    background: url(../img/cherta.png) 50% 20.5%/ auto 0.52% no-repeat ,url(../img/geo.png) 37.5% 32%/ auto 4% no-repeat ,url(../img/konvert.png) 50% 32%/ auto 4% no-repeat ,url(../img/phone.png) 62.7% 32%/ auto 4% no-repeat, url(../img/fon4.jpg);
+}
+.contacts h2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 107px;
+}
+.contacts p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 67px;
+}
+.contacts h4{
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 630px;
+    width: 180px;
+    text-align: center;
+    margin-top: 88px;
+}
+.contacts h5{
+    display: inline;
+    padding-left: 105px;
+}
+.contacts h1{
+    display: inline;
+    padding-left: 125px;
+}
+.contacts h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 43px 0px;
+    
+}
+.uname{
+    height: 40px;
+    text-align: left;
+    border: 2px solid #d2d5dc;
+    background: #d2d5dc;
+    opacity: 85%;
+    font-size: 15px;
+    margin-left: 595px;
+    padding: 18px 145px 18px 10px;
+    font-weight: bold;
+}
+.mail{
+    height: 40px;
+    text-align: left;
+    border: 2px solid #d2d5dc;
+    background: #d2d5dc;
+    opacity: 85%;
+    font-size: 15px;
+    margin-left: 25px;
+    padding: 18px 145px 18px 10px;
+    font-weight: bold;
+}
+.contacts textarea{
+    height: 40px;
+    text-align: left;
+    border: 2px solid #d2d5dc;
+    background: #d2d5dc;
+    opacity: 85%;
+    font-size: 15px;
+    margin: 20px 0px 0px 595px;
+    padding: 45px 547px 45px 0px;
+    font-weight: bold;
+    text-align:start;
+    display: block;
+}
+.otpr{
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin: 30px 900px;
+    font-weight: bold;
+    
+}

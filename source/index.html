@@ -10,18 +10,20 @@
     <meta property="og:title" content="Это ммоя первая страница">
     
     <title>Андреев - веб разработка</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>  
   <header> 
     <nav> 
-       <div class="logo">Андреев</div>
+       <div class="logo">Андрей Андреев</div>
        <div class="menu"><ul>
-           <li>Обо мне </li>
-           <li>Услуг </li>
-           <li>Кейсы </li>
-           <li>Прайс </li>
+           <li>Обо мне</li>
+           <li>Услуги</li>
+           <li>Кейсы</li>
+           <li>Прайс</li>
            <li>Отзывы</li>
-           <li>Контакты </li>
+           <li>Контакты</li>
        </ul></div>
     </nav>
   </header>
@@ -31,82 +33,95 @@
       <input type="submit" value="Обо мне">
       <input type="submit" value="Мои работы">
   </div></div> 
- <div class="2nd_page"> <div class="2nd_page_container"> 
+ <div class="second_page"> <div class="second_page_container"> 
         <h2>ОБО МНЕ</h2>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non iste, laborum, consequuntur culpa vitae aut rerum praesentium quia fuga hic inventore. Exercitationem rerum dignissimos delectus.</h5>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non iste, laborum, consequuntur culpa vitae aut rerum praesentium quia fuga hic inventore. Exercitationem rerum dignissimos delectus.</h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sequi iste minus quos repellendus temporibus adipisci quibusdam cumque, esse aspernatur!</h5>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum numquam iste sunt aliquam doloribus dolore natus autem sapiente repudiandae!</h4>
         <input type="submit" value="Скачать резюме">
  </div></div>
  
- <div class="3d_page"> <div class="3d_page_container">
-     <h2>ЧТО Я УМЕЮ</h2>
-     <h4>Веб дизайн</h4>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, deleniti?</h5>
+ <div class="third_page"> <div class="third_page_container">
+     <h1>ЧТО Я УМЕЮ</12>
+     <h4 class="veb">Веб дизайн</h4>
      <h4>Разработка</h4>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, pariatur!</h5>
      <h4>CEO-оптимизация</h4>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, reiciendis.</h5>
      <h4>Маркетинг</h4>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nesciunt?</h5>
+     <h5 class="diz">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, deleniti?</h5>
+     <h5 class="razr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, pariatur!</h5>
+     <h5 class="ceo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, reiciendis.</h5>
+     <h5 class="mark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nesciunt?</h5>
  </div></div>
- <div class="4th_page"><div class="4d_page_container">
-     <h2>КЕЙСЫ</h2>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, praesentium.</h5>
-     <img scr="my_case">
-     <h3>Client:</h3>
-     <h5>Какая-то компания</h5>
-     <h3>Website:</h3>
-     <h5>https://www.somesite.com</h5>
-     <input type="submit" value="VISIT LIVE SITE">
-     <h3>Название проекта</h3>
-     <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quae consequuntur laudantium pariatur, eaque eum!</h5>
+ <div class="fourth_page"><div class="fourth_page_container">
+     <h1>КЕЙСЫ</h1>
+     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, praesentium.</h2>
+     <img scr="#">
+     <div class="leftside">
+     <p class="client">Client</p>
+     <p class="company">Какая-то компания</p>
+     <p class="webs">Website:</p>
+     <p class="webstxt">https://www.somesite.com</p>
+     <input type="submit" value="VISIT LIVE SITE"></div>
+     <p class="namePJ">Название проекта</p>
+     <p class="namePJtxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum recusandae pariatur nam voluptatem ipsa! Sint similique, laborum! Quo eaque quam architecto, ullam consectetur totam velit, praesentium. Doloremque temporibus ab minima, debitis mollitia ea eligendi! Sequi odio possimus nostrum magnam quos ipsum adipisci consequuntur cumque placeat! Totam, id quae omnis impedit.</p>
  </div></div>
-  <div class="5th_page"><div class="5th_page_container">
+  <div class="fifth_page"><div class="fifth_page_container">
       <h2>Расчет стоимости</h2>
-      <h3>ТИП САЙТА</h3>
-      <select name="type_site" id="type">
+      <h3 class="tip">ТИП САЙТА</h3>
+      <select class="type" name="type_site" id="type">
+          <option selected disabled value="site1">Выберите пункт...</option>
           <option value="site1">site1</option>
           <option value="site2">site2</option>
           <option value="site3">site3</option></select>
-          <h3>ДИЗАЙН</h3>
-      <select name="design_site" id="design">
+      <h3>ДИЗАЙН</h3>
+            <select class="desig" name="design_site" id="design">
+          <option selected disabled value="design1">Выберите пункт...</option>
           <option value="design1">design1</option>
           <option value="design2">design2</option>
           <option value="design3">design3</option></select>
-          <h3>АДАПТИВНОСТЬ</h3>
-      <select name="adaptive_site" id="adaptive">
+      <h3>АДАПТИВНОСТЬ</h3>
+      <select class="adapt" name="adaptive_site" id="adaptive">
+          <option selected disabled value="adaptive1">Выберите пункт...</option>
           <option value="adaptive1">adaptive1</option>
           <option value="adaptive2">adaptive2</option>
           <option value="adaptive3">adaptive3</option>
       </select>
-      <h4>Сроки</h4>
-      <h4>Стоимость</h4>
+      <p class="srok">Сроки</p>
+      <p class="srok1">0</p>
+      <p class="price">Стоимость</p>
+      <p class="price1">0</p>
   </div></div>
   <div class="stat_page"><div class="stat">
-      <h2>НЕМНОГО СТАТИСТИКИ</h2>
-      <h3>120</h3>
-      <h4>СЧАСТЛИВЫХ КЛИЕНТОВ</h4>
-      <h3>4600</h3>
-      <h4>ЧАСОЫ РАБОТЫ</h4>
-      <h3>340</h3>
-      <h4>ПРОЕКТОВ ЗАВЕРШЕНО</h4>
-      <h3>23</h3>
-      <h4>НАГРАД ПОЛУЧЕНО</h4>
+      <h1>НЕМНОГО СТАТИСТИКИ</h1>
+      <div class="numbers">
+      <p class="num1">120</p>
+      <p class="num2">4,600</p>
+      <p class="num3">340</p>
+      <p class="num4">23</p></div>
+      <div class="let">
+      <p class="let1">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+      <p class="let2">ЧАСОЫ РАБОТЫ</p>
+      <p class="let3">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+      <p class="let4">НАГРАД ПОЛУЧЕНО</p></div>
   </div></div>
   <div class="rewiews_page"><div class="rewiews">
      <h2>ОТЗЫВЫ</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tempora ut hic, eius officiis, tenetur quasi dolores laborum animi a omnis pariatur, cum adipisci. At.<br> <b>Евгений</b>, Ген директор ПАО"Сбербанк"</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tempora ut hic, eius officiis, tenetur quasi dolores laborum animi a omnis pariatur, cum adipisci. At.</p>
+      <p class="evg"><b>Евгений</b>, Ген директор ПАО"Сбербанк"</p>
   </div></div>
   <footer>
+     <div class="contacts">
       <h2>МОИ КОНТАКТЫ</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fugiat saepe at voluptatibus, iusto. Necessitatibus.</p>
-      <h4>Нижний-Новгород, Большая Покровская, 4 <br> info@mail.com <br> +79996565871</h4>
+      <h4>Нижний-Новгород Большая Покровская 4</h4>
+      <h5>info@mail.com </h5>
+      <h1> +7 999 656-58-71</h1>
       <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
       <form action="#">
-          <input type="text" name="text_input" placeholder="Имя"> 
-          <input type="text" name="text_input" placeholder="Email"> 
+          <input class="uname" type="text" name="text_input" placeholder="Имя"> 
+          <input class="mail" type="text" name="text_input" placeholder="Email"> 
           <textarea name="info_about_clients" id="info"> </textarea>
-      </form>
+          <input class="otpr" type="submit" value="Отправить">
+      </form></div>
   </footer>
 </body>
 </html>
