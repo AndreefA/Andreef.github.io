@@ -92,7 +92,7 @@ nav{
 }
 main{
     width: 100%;
-    height: 1020px;
+    height: 100%;
 }
 .menu{
     float: left;
@@ -254,19 +254,15 @@ main{
 }
 .second_page{
     width: 100%;
-    height: 720px;
-    background: url(../img/cherta.png) 50% 21%/ auto 0.45% no-repeat, url(../img/fon1.jpg) ;
+    height: 100%;
 }
 .second_page_container{
-    width: 100%;
-    height: 100%;
     color: #263244;
     text-align: center;
 }
 .second_page_container h2{
     text-align: center;
     font-size: 22px;
-    padding-top: 107px;
     font-weight: bold;
 }
 .tekst{
@@ -297,80 +293,69 @@ main{
 }
 .third_page{
     width: 100%;
-    height: 526px;
-    background: url(../img/cherta.png) 50% 28%/ auto 0.65% no-repeat , url(../img/fon2.jpg) ;
+    height: 100%;
+    background: url(../img/fon2.jpg) ;
 }
 .third_page_container{
     color: #263244;
     text-align: center;  
 }
-.third_page_container h1{
-    padding-top: 59px;
+.third_page_container h2{
     font-size: 22px;
     font-weight: bold;
 }
 .col2{
     color: #cf7600;
-    float: left;
+    padding-top: 10px;
     font-size: 16px;
     font-weight: bold;
-}
-.img_third{
-    text-align: center;
-}
-.third_page_container h5{
-    color: #3f495a; 
-}
-.row2{
-    color: #3f495a;
 }
 .col1{
     font-size: 15px;
     text-align: center;
     float: left;
 }
+.statka{
+    text-align: center;
+}
 .fourth_page{
     width: 100%;
-    height: 1215px;
-    background:  url(../img/cherta.png) 50% 14%/ auto 0.27% no-repeat , url(../img/keys.jpg) 20% 75.5%/ auto 72% no-repeat ;
+    height: 1200px;
+    text-align: center;
 }
 .fourth_page_container{
-    width: 100%;
     color: #263244;
-    float: left;
 }
 .fourth_page_container h1{
-    text-align: center;
-    padding-top: 107px;
     font-size: 22px;
     font-weight: bold;
 }
 .fourth_page_container h2{
     font-size: 15px;
-    text-align: center;
-    padding-top: 51px;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
-
-.client{
-    
+.client{  
     font-size: 19px;
     font-weight: bold;
     text-transform: uppercase;
 }
 .company{
     font-size: 15px;
-    padding-top: 17px;
+    padding-top: 7px;
 }
 .webs{
     font-size: 19px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 17px;
+    padding-top: 7px;
 }
 .webstxt{
     font-size: 15px;
-    padding-top: 17px;
-
+    padding-top: 7px;
+}
+.vis{
+    text-align: start;
 }
 .visit{
     margin-top: 5px;
@@ -381,14 +366,8 @@ main{
     background: #63b5ae;
     font-weight: 300;
     font-size: 18px;
-    margin-left: 100px;
-}
-.colc{
-    margin-left: 100px;
-    padding-top: 210px;
 }
 .colk{
-    padding-top: 210px;
     font-size: 19px;
     font-weight: bold;
 }
@@ -409,10 +388,11 @@ main{
 .fifth_page{
     width: 100%;
     height: 810px;
+    text-align: center;
 }
 .fifth_page_container{
     width: 975px;
-    height: 757px;
+    height: 760px;
     border: 1px solid white;
     box-shadow: 1px 1px 5px black;
     color: #1c2534;
@@ -420,7 +400,6 @@ main{
     padding: 3rem;
 }
 .fifth_page_container h2{
-
     font-size: 25px;
     font-weight: bold;
     text-align: center
@@ -428,7 +407,6 @@ main{
 .fifth_page_container h3{
     font-size: 22px;
     font-weight: bold;
-
 }
 .tip{
     padding-top: 57px;
@@ -478,7 +456,8 @@ main{
 .stat_page{
     width: 100%;
     height: 500px;
-    background: url(../img/cherta.png) 50% 32%/ auto 0.8% no-repeat ,url(../img/fon3.jpg) fixed; 
+    background:url(../img/fon3.jpg) fixed; 
+    text-align: center;
 }
 .stat{
     width: 100%;
@@ -486,56 +465,42 @@ main{
     float: left;
 }
 .stat h1{
-    padding-top: 107px;
     font-size: 22px;
     font-weight: bold;
-    text-align: center;
+
 }
 .numbers{
     font-size: 28px;
     font-weight: 900;
-    text-align: center;
-}
-.imgg{
-    text-align: center;
 }
 .let{
     font-size: 14px;
     font-weight: 600;
-    text-align: center;
 }
 .rewiews_page{
     width: 100%;
-    height: 595px;
-    background: url(../img/cherta.png) 50% 25%/ auto 0.6% no-repeat;
+    height: 100%;
+    text-align: center;
 }
 .rewiews{
     width: 100%;
     color: #243042;
-    text-align: center;
 }
 .rewiews h2{
     font-size: 22px;
     font-weight: bold;
     padding-top: 59px;
 }
-.men{
-    text-align: center;
-}
 .rewiews p{
     font-size: 16px;
     font-weight: 500;
-    text-align: center;
-}
-.evg{
-    text-align: center;
 }
 .contacts{
     width: 100%;
-    height: 808px;
+    height: 100%;
     color: #fff;
-    background: url(../img/cherta.png) 50% 20.5%/ auto 0.52% no-repeat, url(../img/fon4.jpg);
-    position: relative;
+    background:url(../img/fon4.jpg);
+    text-align: center;
 }
 .contacts h2{
     font-size: 27px;
@@ -546,7 +511,6 @@ main{
 .cont{
     text-align: center;
     font-size: 15px;
-    padding-top: 67px;
 }
 .ikonki{
     text-align: center;
