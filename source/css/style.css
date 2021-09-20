@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'franklinG';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 body{
     font-family: Arial, sans-serif;
 }
@@ -67,35 +74,35 @@ body{
   display: none;
 }
 nav{
-    width: 1920px;
+    width: 100%;
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 10;
 }
 .logo{
     color: #fff;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
     -webkit-animation: comming 2s ease;
     -o-animation: comming 2s ease;
-    animation: comming 2s ease;                
+    animation: comming 2s ease; 
+    font-family: 'franklinG', sans-serif;
 }
 main{
-    width: 1920px;
-    height: 1020px;
+    width: 100%;
+    height: 100%;
 }
 .menu{
     float: left;
-    padding-left: 432px;
 }
 .menu li{
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
@@ -104,16 +111,16 @@ main{
 }
 
 .main{
-    width: 1920px;
-    height: 1020px;
+    width: 100%;
+    height: 100%;
     background: url(../img/boy.png) 90% 100%/ auto 85% no-repeat, url(../img/bg.jpg) ; 
 }
 
 .titl_container{
     float: left;
-    margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    width: 100%;
     opacity: 0;
     -webkit-animation: titlemove 1s ease forwards;
     -o-animation: titlemove 1s ease forwards; 
@@ -124,7 +131,8 @@ main{
 }
 
 .titl_container h1{
-    font-size: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 65px;
     font-weight: bold;
 }
 .titl_container h4{
@@ -149,6 +157,7 @@ main{
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white;
@@ -211,49 +220,61 @@ main{
     }
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 0px;
     }
 }
-.second_page{
-    width: 1920px;
-    height: 720px;
-    background: url(../img/logo.png) 50% 41%/ auto 33% no-repeat, url(../img/cherta.png) 50% 21%/ auto 0.45% no-repeat , url(../img/ikonka.png) 46.5% 85.55%/ auto 2.3% no-repeat, url(../img/fon1.jpg) ;
+.white-btn:visited{
+    color: white;
 }
-
+@media (max-width:991px){
+    .titl_container, .titl_container h4, .titl_container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .titl_container input{
+        border: 2px solid #fff;
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        z-index: 1;        
+    }
+    .titl_container{
+        animation-delay: 0.8s;
+    }
+}
 .second_page_container{
-    width: 1920px;
     color: #263244;
-    float: left;
     text-align: center;
 }
 .second_page_container h2{
     text-align: center;
-    padding-top: 107px;
     font-size: 22px;
     font-weight: bold;
 }
-
-.second_page_container h5{
-    text-align: justify;
-    font-size: 16px;
-    padding:  320px 595px 0px 595px;
-    
-}
-.second_page_container h4{
-    text-align: justify;
-    font-size: 16px;
-    padding: 43px 595px 0px 595px;
+.tekst{
+    font-size: 18px;   
 }
 .second_page_container input{
     height: 40px;
+    width: 200px;
     border: 2px solid #6f707e;
-    background: none;
+    background: url(../img/ikonka.png) 12% 36.5%/ auto 51% no-repeat;
     border-radius: 5px;   
     font-size: 15px;
     color: #6f707e;
     padding: 0px 16px 0px 36px;
     margin: 37px 0px 0px 0px;
-    font-weight: bold;  
+    font-weight: bold;
     
 }
 .second_page_container input{
@@ -261,167 +282,114 @@ main{
 }
 .second_page_container input:hover{
     color: white;
-    background: #2c384a;
+    background: url(../img/ikonka.png) 12% 36.5%/ auto 51% no-repeat, #2c384a;
 }
 .second_page_container input:active{
     transform: scale(1.1);
 }
 .third_page{
-    width: 1920px;
-    height: 526px;
-    background: url(../img/cherta.png) 50% 28%/ auto 0.65% no-repeat , url(../img/nout.png) 26% 56%/ auto 10% no-repeat , url(../img/znak.png) 42.3% 56%/ auto 10% no-repeat , url(../img/raketa.png) 60.5% 56%/ auto 10% no-repeat, url(../img/rupor.png) 77.5% 56%/ auto 10% no-repeat , url(../img/fon2.jpg) ;
+    background: url(../img/fon2.jpg) ;
 }
 .third_page_container{
-    width: 1920px;
     color: #263244;
-    float: left;
     text-align: center;  
 }
-.third_page_container h1{
-    text-align: center;
-    padding-top: 107px;
+.third_page_container h2{
     font-size: 22px;
     font-weight: bold;
 }
-.veb{
-    margin-left: 475px;
-}
-.third_page_container h4{
+.col2{
     color: #cf7600;
+    padding-top: 10px;
     font-size: 16px;
     font-weight: bold;
-    margin-right: 209px;
-    margin-top: 219px;
-    float: left;
 }
-.third_page_container h5{
-    color: #3f495a;
-}
-.diz{
+.col1{
     font-size: 15px;
     text-align: center;
     float: left;
-    margin-left: 412px;
-    width: 210px; 
-    padding-top: 10px;
 }
-.razr{
-    font-size: 15px;
+.statka{
     text-align: center;
-    float: left;
-    margin-left: 90px;
-    width: 210px;
-    padding-top: 10px;
-}
-.ceo{
-    font-size: 15px;
-    text-align: center;
-    float: left;
-    margin-left: 120px;
-    width: 210px;
-    padding-top: 10px;
-}
-.mark{
-        font-size: 15px;
-    text-align: center;
-    float: left;
-    margin-left: 110px;
-    width: 210px;
-    padding-top: 10px;
 }
 .fourth_page{
-    width: 1920px;
-    height: 1215px;
-    background:  url(../img/cherta.png) 50% 14%/ auto 0.27% no-repeat , url(../img/keys.jpg) 0% 68.5%/ auto 72% no-repeat ;
+    text-align: center;
 }
 .fourth_page_container{
-    width: 1920px;
     color: #263244;
-    float: left;
 }
 .fourth_page_container h1{
-    text-align: center;
-    padding-top: 107px;
     font-size: 22px;
     font-weight: bold;
 }
 .fourth_page_container h2{
     font-size: 15px;
-    text-align: center;
-    padding-top: 71px;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
-.leftside{
-    float: left;
-    padding-left: 407px;
-    padding-top: 672px;
-    max-width: 700px;
-
-}
-.client{
+.client{  
     font-size: 19px;
     font-weight: bold;
     text-transform: uppercase;
 }
 .company{
     font-size: 15px;
-    padding-top: 17px;
+    padding-top: 7px;
 }
 .webs{
     font-size: 19px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 17px;
+    padding-top: 7px;
 }
 .webstxt{
     font-size: 15px;
-    padding-top: 17px;
-    margin-right: 150px;
+    padding-top: 7px;
 }
-.namePJ{
-    font-size: 19px;
-    font-weight: bold;
-    padding-top: 657px;
-    text-align: left;
-    padding-left: 30px;
+.vis{
+    text-align: start;
 }
-.namePJtxt{
-    font-size: 16px;
-    max-width: 1640px;
+.visit{
     margin-top: 5px;
-    line-height: 35px;
-}
-.leftside input{
-    margin-top: 20px;
     color: #fff;
     border: 3px solid #63b5ae;
     border-radius: 3px;
-    padding: 16px 23px;
+    padding: 7px 8px;
     background: #63b5ae;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 18px;
 }
-.fourth_page_container input{
+.colk{
+    font-size: 19px;
+    font-weight: bold;
+}
+.namePJtxt{
+    font-size: 16px;
+    font-weight: 200;
+}
+.visit{
     transition: all 0.2s;
 }
-.fourth_page_container input:hover{
+.visit:hover{
     color: #63b5ae;
     background: #fff;
 }
-.fourth_page_container input:active{
+.visit:active{
     transform: scale(1.1);
 }
 .fifth_page{
-    width: 1920px;
-    height: 810px;
-    background: url(../img/liniya.png)  47.35% 71%/ auto 0.249% no-repeat , url(../img/pole1.png) 47.5% 29.2%/ auto 7.1% no-repeat, url(../img/pole1.png) 47.5% 47.6%/ auto 7.1% no-repeat, url(../img/pole1.png) 47.5% 66.2%/ auto 7.1% no-repeat;
+    text-align: center;
 }
 .fifth_page_container{
-    width: 1920px;
+    width: 975px;
+    height: 760px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px black;
     color: #1c2534;
     float: left;
+    padding: 3rem;
 }
 .fifth_page_container h2{
-    padding-top: 107px;
     font-size: 25px;
     font-weight: bold;
     text-align: center
@@ -429,212 +397,130 @@ main{
 .fifth_page_container h3{
     font-size: 22px;
     font-weight: bold;
-    padding-left: 496px;
 }
 .tip{
     padding-top: 57px;
 }
 .fifth_page_container select{
     font-size: 21px;
-    margin-left: 506px;
     color: #737373;
-    margin-top: 27px;
-    margin-bottom: 67px;
     background: none;
     width: 850px;    
 }
-.type{
+.pricee{
+    text-align: start;
 }
 .fifth_page_container p{
     font-size: 18px;
     font-weight: bold;
 }
-.srok{
-    padding-bottom: 17px;
-    padding-left: 496px;
+.col0{
+    text-align: end;
 }
-.srok1{
-    float: right;
-    padding-right: 537px;
-
+.cherta{
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
-.price{
-    padding-left: 496px;
-
+.visit1{
+    text-align: center;
+    color: #fff;
+    border: 3px solid #63b5ae;
+    border-radius: 3px;
+    padding: 16px 7px;
+    background: #63b5ae;
+    font-weight: bold;
+    font-size: 18px;
 }
-.price1{
-    float: right;
-    padding-top: 17px;
-    padding-right: 537px;
+.visit1{
+    transition: all 0.2s;
+}
+.visit1:hover{
+    color: #63b5ae;
+    background: #fff;
+}
+.visit1:active{
+    transform: scale(1.1);
 }
 .stat_page{
-    width: 1920px;
-    height: 500px;
-    background: url(../img/cherta.png) 50% 32%/ auto 0.8% no-repeat , url(../img/smile.png) 26.75% 55%/ auto 10% no-repeat ,url(../img/skobka.png) 42.55% 55%/ auto 10% no-repeat ,url(../img/galka.png) 59% 55%/ auto 10% no-repeat ,url(../img/kubok.png) 74.75% 55%/ auto 10% no-repeat, url(../img/fon3.jpg) fixed; 
+    height: 600px;
+    background:url(../img/fon3.jpg) fixed; 
+    text-align: center;
 }
 .stat{
-    width: 1920px;
+    width: 100%;
     color: #323e4f;
     float: left;
 }
 .stat h1{
-    padding-top: 107px;
     font-size: 22px;
     font-weight: bold;
-    text-align: center;
+
 }
 .numbers{
     font-size: 28px;
     font-weight: 900;
-    padding-top: 205px;
-}
-.num1{
-    display: inline;
-    padding-left: 495px;
-}
-.num2{
-    display: inline;
-    padding-left: 223px;
-}
-.num3{
-    display: inline;
-padding-left: 217px;
-}
-.num4{
-    display: inline;
-    padding-left: 245px;
 }
 .let{
-    padding-top: 33px;
     font-size: 14px;
     font-weight: 600;
 }
-.let1{
-    display: inline;
-    padding-left: 425px;
-}
-.let2{
-    display: inline;
-    padding-left: 152px;
-}
-.let3{
-    display: inline;
-    padding-left: 154px;
-}
-.let4{
-    display: inline;
-    padding-left: 141px;
-}
 .rewiews_page{
-    width: 1920px;
-    height: 595px;
-    background: url(../img/cherta.png) 50% 25%/ auto 0.6% no-repeat , url(../img/men.png) 50% 45%/ auto 17% no-repeat;
+    text-align: center;
 }
 .rewiews{
-    width: 1920px;
     color: #243042;
-    float: left;
-    text-align: center;
 }
 .rewiews h2{
     font-size: 22px;
     font-weight: bold;
-    padding-top: 107px;
-    padding-bottom: 233px;
+    padding-top: 59px;
 }
 .rewiews p{
-    margin-left: 616px;
-    max-width: 700px;
     font-size: 16px;
     font-weight: 500;
 }
-.evg{
-    padding-top: 25px;
-}
 .contacts{
-    width: 1920px;
-    height: 808px;
     color: #fff;
-    background: url(../img/cherta.png) 50% 20.5%/ auto 0.52% no-repeat ,url(../img/geo.png) 37.5% 32%/ auto 4% no-repeat ,url(../img/konvert.png) 50% 32%/ auto 4% no-repeat ,url(../img/phone.png) 62.7% 32%/ auto 4% no-repeat, url(../img/fon4.jpg);
+    background:url(../img/fon4.jpg);
+    text-align: center;
 }
 .contacts h2{
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    padding-top: 107px;
+    padding-top: 59px;
 }
-.contacts p{
+.cont{
     text-align: center;
     font-size: 15px;
-    padding-top: 67px;
 }
-.contacts h4{
+.ikonki{
+    text-align: center;
+}
+.info{
+    text-align: center;
     font-size: 16px;
-    display: inline-block;
-    margin-left: 630px;
-    width: 180px;
-    text-align: center;
-    margin-top: 88px;
 }
-.contacts h5{
-    display: inline-block;
-    padding-left: 105px;
-}
-.contacts h1{
-    display: inline-block;
-    padding-left: 125px;
-}
-.contacts h3{
-    font-size: 18px;
+.ostavsms{
+        font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding: 43px 0px;
-    
-}
-.uname{
-    height: 40px;
-    text-align: left;
-    border: 2px solid #d2d5dc;
-    background: #d2d5dc;
-    opacity: 85%;
-    font-size: 15px;
-    margin-left: 595px;
-    padding: 18px 145px 18px 10px;
-    font-weight: bold;
-}
-.mail{
-    height: 40px;
-    text-align: left;
-    border: 2px solid #d2d5dc;
-    background: #d2d5dc;
-    opacity: 85%;
-    font-size: 15px;
-    margin-left: 25px;
-    padding: 18px 145px 18px 10px;
-    font-weight: bold;
-}
-.contacts textarea{
-    height: 40px;
-    text-align: left;
-    border: 2px solid #d2d5dc;
-    background: #d2d5dc;
-    opacity: 85%;
-    font-size: 15px;
-    margin: 20px 0px 0px 595px;
-    padding: 45px 547px 45px 0px;
-    font-weight: bold;
-    text-align:start;
-    display: block;
 }
 .otpr{
-    text-align: center;
     border: 2px solid #fff;
     background: none;
     border-radius: 5px;
     color: #fff;
     font-size: 14px;
-    padding: 15px 20px;
-    margin: 30px 900px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.enter{
+    border: 1px solid #d2d5dc;
+    background: #d2d5dc;
+    opacity: 85%;
+    font-size: 15px;
     font-weight: bold;
 }
 .otpr:hover{
@@ -646,17 +532,17 @@ padding-left: 217px;
     transition: 0.2s;
     transform: scale(1.1);
 }
-.contacts h4:hover{
+.adres:hover{
     transition: 0.2s;
     color: #ee8b08;
     transform: scale(1.1);
 }
-.contacts h5:hover{
+.pochta:hover{
     transition: 0.2s;
     color: #ee8b08;
     transform: scale(1.1);
 }
-.contacts h1:hover{
+.nomer:hover{
     transition: 0.2s;
     color: #ee8b08;
     transform: scale(1.1);
