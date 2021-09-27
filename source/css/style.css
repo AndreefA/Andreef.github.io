@@ -462,10 +462,16 @@ main{
 .numbers{
     font-size: 28px;
     font-weight: 900;
+    opacity: 0;
 }
 .let{
     font-size: 14px;
     font-weight: 600;
+}
+
+.numbers.showIt{
+    opacity: 1;
+    transition: opacity 2s;
 }
 .rewiews_page{
     text-align: center;

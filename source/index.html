@@ -12,6 +12,7 @@
     <title>Андреев - веб разработка</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,12 +29,12 @@
           <div class="row">
               <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Андреев</div></div>
               <div class="px-0 col-xxl-6 col-xl-7 col-lg-8  offset-xxl-2 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
-           <li><a href="#">Обо мне</a></li>
-           <li><a  href="#">Услуги</a></li>
-           <li><a  href="#">Кейсы</a></li>
-           <li><a  href="#">Прайс</a></li>
-           <li><a  href="#">Отзывы</a></li>
-           <li><a href="#">Контакты</a></li>
+           <li><a href="#aboutMe">Обо мне</a></li>
+           <li><a  href="#usligi">Услуги</a></li>
+           <li><a  href="#keyses">Кейсы</a></li>
+           <li><a  href="#pricee">Прайс</a></li>
+           <li><a  href="#rewiwews">Отзывы</a></li>
+           <li><a href="#contactss">Контакты</a></li>
        </ul></div></div>
          <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
              <div class="dropdown">
@@ -41,12 +42,12 @@
     Навигация
   </a>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
- <li><a class="dropdown-item" href="#">Обо мне</a></li>
-           <li><a class="dropdown-item" href="#">Услуги</a></li>
-           <li><a class="dropdown-item" href="#">Кейсы</a></li>
-           <li><a class="dropdown-item" href="#">Прайс</a></li>
-           <li><a class="dropdown-item" href="#">Отзывы</a></li>
-           <li><a class="dropdown-item" href="#">Контакты</a></li>
+           <li><a class="dropdown-item" href="#aboutMe">Обо мне</a></li>
+           <li><a class="dropdown-item" href="#usligi">Услуги</a></li>
+           <li><a class="dropdown-item" href="#keyses">Кейсы</a></li>
+           <li><a class="dropdown-item" href="#pricee">Прайс</a></li>
+           <li><a class="dropdown-item" href="#rewiwews">Отзывы</a></li>
+           <li><a class="dropdown-item" href="#contactss">Контакты</a></li>
   </ul>
 </div>
          </div>
@@ -55,7 +56,7 @@
     </nav>
   </header>
   <main>
- <section class="main"> 
+<section class="main"> 
     <div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5"><div class="titl_container mt-5">
       <h1>Привет <br> Я Андрей Андреев</h1>
       <h4> Фулл стек веб-разработчик</h4>
@@ -63,7 +64,7 @@
       <input type="button" value="Мои работы">
      </div></div></div></div>
   </section>
-  <section class="second_page"> <div class="container second_page_container p-5"> 
+<section class="second_page" id="aboutMe"> <div class="container second_page_container p-5"> 
         <div class="row">
        <div class="col"><h2>ОБО МНЕ</h2></div></div>
        <div class="row">
@@ -80,7 +81,7 @@
        <div class="row">
         <div class="col-1 align-self-center w-100"><input type="submit" value="Скачать резюме"></div></div></div>
   </section> 
-<section class="third_page"><div class="container third_page_container p-5">
+<section class="third_page" id="usligi"><div class="container third_page_container p-5">
     <div class="row ">
     <div class="col"><h2>ЧТО Я УМЕЮ</h2></div></div>
     <div class="row pb-5 mb-5">
@@ -109,7 +110,7 @@
         </div></div>
  </div>
  </section>
- <section class="fourth_page"><div class="container p-5">
+<section class="fourth_page" id="keyses"><div class="container p-5">
    <div class="row">
      <div class="fourth_page_container">
       <div class="col"><h1>КЕЙСЫ</h1></div>
@@ -120,7 +121,38 @@
      </div>  
    </div>
     <div class="row">
-        <div class="col key"><img src="../source/img/key.png " class="img-fluid"></div>
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../source/img/key_bad.png" href="img/key.png" class="d-block w-100 image-link" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../source/img/key1_bad.jpg" href="img/key1.jpg" class="d-block w-100 image-link" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../source/img/key2_bad.jpg" href="img/key2.jpg" class="d-block w-100 image-link" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
    <div class="row p-5">
      <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4">
@@ -135,7 +167,7 @@
    </div>
  </div>
 </section>
-    <section class="fifth_page"><div class="container p-5"><div class="row  justify-content-center "><div class="fifth_page_container">
+<section class="fifth_page" id="pricee"><div class="container p-5"><div class="row  justify-content-center "><div class="fifth_page_container">
       <div class="col"><h2>Расчет стоимости</h2></div>
       <div class="col-3 pb-5 w-100"><h3 class="tip">ТИП САЙТА</h3>      
           <div class="dropdown ">
@@ -182,7 +214,7 @@
       <input class="visit1" type="submit" value="Оставить заявку"></div></div>
       </div></div></div>
    </section>
-    <section class="stat_page">
+<section class="stat_page">
     <div class="container p-5">
      <div class="stat">
      <div class="row">
@@ -215,7 +247,7 @@
         </div></div>
       </div></div>
    </section>
-   <section class="rewiews_page ">
+<section class="rewiews_page" id="rewiwews">
    <div class="container p-5">
    <div class="row rewiews">
     <div class="col"><h2>ОТЗЫВЫ</h2></div></div>
@@ -230,8 +262,8 @@
      <div class="col"><p class="evg"><b>Евгений</b>, Ген директор ПАО"Сбербанк"</p></div></div>
   </div>
    </section>
-   <footer>
-     <div class="contacts ">
+   <footer id="contactss">
+     <div class="contacts">
      <div class="container p-5">
      <div class="row">
      <div class="col"><h2>МОИ КОНТАКТЫ</h2></div></div>
@@ -269,8 +301,8 @@
          <div class="col">
           <input class="otpr" type="button" value="Отправить"></div></div>
       </form>
-      </div></div>
-  </footer>
+        </div></div>
+    </footer>
     </main>
 <script>
   window.onload = function () {
@@ -282,6 +314,8 @@
   }
 </script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/myScript.js"></script>
 </body>
 </html>
